@@ -45,6 +45,7 @@ body {
 
 .card__title {
     font-size: 32px;
+    color: hsl(212, 21%, 14%);
     line-height: 32px;
     font-weight: 500;
     margin-bottom: 15px;
@@ -122,6 +123,10 @@ body {
 
     .card__prices {
         margin-bottom: 25px;
+    }
+
+    .card__cta:hover {
+        background-color: #1a4031;
     }
 
     }
